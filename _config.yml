@@ -1,0 +1,126 @@
+layout: sidebar
+style: light
+
+plugins: 
+  - jekyll-octicons
+  - jekyll-github-metadata
+  - jemoji
+
+permalink: /:year/:month/:day/:title/
+
+defaults:
+  -
+    scope: 
+      path: "" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      layout: "post"
+
+projects:
+  sort_by: pushed
+  # sort_by options:
+  #   - pushed
+  #   - stars
+  limit: 9 
+  exclude:
+    archived: false 
+    forks: false
+    projects: 
+      - VisualizingTheFuture2
+      - VisualizingtheFuture.github.io
+      - visualizations
+      - intro-to-flexdashboard
+  
+about:
+  - name: D
+    position: C
+    period: O
+
+ending:
+  - name: D
+    position: C
+    period: O
+
+
+works:
+  - name: Associate Software Engineer
+    position: • Ahmedabad, India
+    position2: Sigma Infosolutions Ltd.
+    period: September 2020 - Present
+
+  - name: Project Trainee
+    position: • Gandhinagar, India
+    position2: Playpower Labs
+    period: December 2019 - May 2020
+
+  - name: Data Analyst Intern 
+    position: • Gandhinagar, India
+    position2: Playpower Labs
+    period: June 2019 - August 2019
+
+  - name: Industrial Trainee
+    position: • Ahmedabad, India
+    position2: Sukshma Vision
+    period: June 2018 - July 2018
+
+  - name: Web Development Intern
+    position: • Ahmedabad, India
+    position2: Silverwing Technologies Pvt. Ltd.
+    period: July 2017 - August 2017
+
+
+education:
+  - name: Indus University • Ahmedabad, India
+    position: Bachelor of Technology, Computer Science Engineering
+    period: August 2016 - May 2020
+
+  - name: The H B Kapadia New High School • Ahmedabad, India
+    position: Higher Secondary Certificate Examination
+    period: June 2014 - March 2016
+  
+
+
+topics:
+  - name: R
+    web_url: https://github.com/topics/R
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/r/r.png
+
+  - name: Python
+    web_url: https://github.com/topics/python
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/python/python.png
+
+  - name: SQL
+    web_url: https://github.com/topics/sql
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sql/sql.png
+
+  - name: HTML
+    web_url: https://github.com/topics/HTML
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/html/html.png
+
+  - name: CSS
+    web_url: https://github.com/topics/CSS
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
+
+  - name: JavaScript
+    web_url: https://github.com/topics/javascript
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/javascript/javascript.png
+
+social_media:
+  #stackoverflow: your_username
+  linkedin: akansha-lalwani/
+  # facebook: your_username
+  # instagram: your_username 
+  # behance: your_username
+  # dribbble: your_username
+  # hackerrank: your_username
+  # keybase: your_username
+  # mastodon: your_username
+  # telegram: your_username
+  # twitter: your_username
+  # medium: your_username
+  # unsplash: your_username
+  # vk: your_username
+  # website: http://your_website_url
+  # youtube: your_username
+
+
